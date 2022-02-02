@@ -1,9 +1,27 @@
-# Getting Started with Create React App
+# A GIF Searcher
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project searches GIF images using the Giphy API. 
+The UI is built with ReactJS and TailWindCSS.
+
+## Features
+
+* A Search bar.
+* A lightbox that opens when you click a thumbnail, and displays the GIF in a larger size.
+* The lightbox has arrows to navigate between GIFs.
+* A button to load more GIFs.
+
+UX Improvement:
+This project could implement the loading of more gifs when the user scrolls to the end of the page to avoid clicking the button.
+
+## Installation
+
+1. Clone this repo and run `npm install`. 
+2. Create an *.env.local* file in the root and copy the contents of *.env.example*.
+3. Set your API key in the `REACT_APP_GIPHY_KEY` in *.env.local*
 
 ## Available Scripts
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 In the project directory, you can run:
 
 ### `npm start`
